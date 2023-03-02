@@ -62,7 +62,7 @@ def o():
 	
     os.system('clear'
 )
-    jalan(logo
+    jalan(logo)
     jalan(' \033[38;5;196m[\033[38;5;195m01\033[38;5;196m]\033[38;5;46m RANDOM CLONE ')
     jalan(' \033[38;5;196m[\033[38;5;195m02\033[38;5;196m]\033[38;5;46m CONTAC ADMIN')
     jalan(' \033[38;5;196m[\033[38;5;195m03\033[38;5;196m]\033[38;5;46m JOIN MY GROUP')
