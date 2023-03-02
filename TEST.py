@@ -1,37 +1,24 @@
 import os
-
 import sys
-
 import time
-
 import requests
-
 import uuid
-
 os.system('git pull')
-
 os.system('pkg install curl')
-
 class jalan:
 
     
 
     def __init__(self, z):
-
         pass
 
 
 def ud():
-
     os.system('clear')
-
     jalan(logo)
-
     print(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\x1b[1;97m JOIN MY 1st GROUP')
-
     print(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\x1b[1;97m EXIT')
     print('\x1b[1;97m===================================================')
-    
     opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\x1b[1;97m Choose option \033[38;5;195m: \033[38;5;46m')
 
     if opt == 'A':
@@ -45,22 +32,6 @@ def ud():
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
 
 def ND():
-
-    os.system('clear')
-
-    print(logo)
-
-    print(' \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\033[38;5;46m JOIN MY 2nd GROUP')
-
-    print(' \033[38;5;196m[\033[38;5;195mE\033[38;5;196m]\033[38;5;196m EXIT')
-
-    opt = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Choose option \033[38;5;195m: \033[38;5;46m')
-
-    if opt == 'A':
-
-        os.system('xdg-open https://facebook.com/groups/320641429966990m')
-
-        o()
 
         return None
 
