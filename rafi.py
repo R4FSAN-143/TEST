@@ -231,7 +231,7 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
+            header_freefb = {'authority': 'deceloper.facebook.com',
             "method": 'page',
             "scheme": 'https',
             'authority': 'developer.facebook.com',
