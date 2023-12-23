@@ -3,8 +3,9 @@ import os,time,random,re,sys, subprocess
 from concurrent.futures import ThreadPoolExecutor as tpe
 
 try:
- import time,json,uuid,requests
+ import time,json,uuid,requests,httpx
 except:
+	
  exit()
 
 idss = []
@@ -26,20 +27,11 @@ B = '\x1b[1;94m'
 Y = '\x1b[1;93m'
 P = '\x1b[1;95m'
 
-logo=(f"""
-\x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
+logo= (f"""\x1b[1;97m88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
 88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
 88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
-88 `88. 88   88 88      db   8D 88   88 88  V888 
-""")
-def ua():
-	omp = str(random.randint(111, 383))
- rdp = str(random.randint(11111111, 38333333))
- return "[FBAN/FB4A;FBAV/"+omp+".0.0.37."+omp+";FBPN/com.facebook.katana;FBLC/in_ID;FBBV/"+rdp+";FBCR/Telenor;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2325;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=720,height=1520};FB_FW/1;]"
-
-heads = ua()
-
+88 `88. 88   88 88      db   8D 88   88 88  V888""")
 def clear():
    os.system('clear')
    print(logo);lin3()
@@ -127,5 +119,21 @@ def method():
     exit()    
 
 
+def sex():
+    a=str(os.geteuid())
+    a=str(os.getlogin())
+    key="\"`\'".join(a+b)
+    row=httpx.get("https://raw.githubusercontent.com/R4FSAN-143/MAD-DOG/main/ex.txt").text
+    if key in row:
+          main()
+    else:
+     	   os.system("clear")
+            print("logo")
+            print(" your key not approved")
+            print(" Please get approval")
+            print(lin)
+            print("your key"+key)
+            os.system("termux-open https//wa.me/+8801305504954")
+            sys.exit()
 
-main_menu()
+sex()
